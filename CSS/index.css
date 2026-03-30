@@ -113,6 +113,9 @@
 
 footer{ 
     background-color: var(--cor-menu);
+    bottom: 0;
+    position: fixed;
+    width: 100%;
 }
 .footer-itens{
     display: flex;
