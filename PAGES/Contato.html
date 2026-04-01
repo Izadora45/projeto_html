@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+<body class="contato">
     <header class="menu" >  
         <nav class="nav-bar">
             <a href="../index.html" class="box-logo">
@@ -35,12 +35,35 @@
 
         </nav>
     </header>
+    <div class="box-contato">
+        <form action="">
+            <fieldset>
+                <legend><span>Formulário de Clientes</span></legend>
+                <div class="area-form">
 
-    <main>
-        <img src="../IMG/gifbaike.gif" alt="">
-    </main>
+               
 
-      <footer>
+                    <div class="inputBox">
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" class="inputUser" required >
+                        
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="email" id="email" placeholder= "Digite seu email" class ="inputUser" required >
+                        <!-- requisiçao obrigatória para que ele não passe sem digitar nada -->
+                        
+                    </div>
+                    <div class="inputBox">
+                        <input type="mensagem" name="mensagem" id="mensagem" placeholder="Preencha o campo abaixo" class="inputUser" required >
+                        
+                    </div>
+                    <input type="button" value="ENVIAR" name="submit" id="submit">
+                </div>
+            
+
+            </fieldset>
+        </form>
+    </div>
+    <footer>
         <div class="footer-itens">
             <span class="copyright">
                 &copy 2026 Izadora Aparecida;
@@ -51,8 +74,7 @@
                 <a href="https://www.instagram.com/iza_dadora/" class="fa-brands fa-instagram"></a>
             </div>
         </div>
-    </footer>
-
+    </footer>   
 
 </body>
 </html>
